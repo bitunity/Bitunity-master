@@ -1,11 +1,11 @@
-﻿Bitunity Core staging tree 0.12
+﻿Bitunity Core staging tree 0.01
 ===============================
 
-https://www.Bitunitypay.io
+http://buccoin.org
 
-Copyright (c) 2009-2015 Bitcoin Core Developers
+Copyright (c) 2009-2018 Bitcoin Core Developers
 
-Copyright (c) 2014-2015 Bitunity Core Developers
+Copyright (c) 2014-2018 Bitunity Core Developers
 
 
 What is Bitunity?
@@ -18,7 +18,7 @@ are carried out collectively by the network. Bitunity Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Bitunity Core software, see https://www.Bitunitypay.io/downloads.
+the Bitunity Core software, see http://buccoin.org.
 
 
 License
@@ -46,8 +46,7 @@ match the project's coding conventions (see [doc/coding.md](doc/coding.md)) or a
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/Bitunitypay/Bitunity/tags) are created
-regularly to indicate new official, stable release versions of Bitunity. ***TODO***
+completely stable. 
 
 Testing
 -------
@@ -65,28 +64,14 @@ submit new unit tests for old code. Unit tests can be compiled and run (assuming
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
 used for manual QA testing — a link to them will appear in a comment on the
-pull request posted by [BitunityPullTester](https://github.com/Bitunitypay/PullTester). See https://github.com/TheBlueMatt/test-scripts
-for the build/test scripts. ***TODO***
+pull request posted by 
 
-### Manual Quality Assurance (QA) Testing
 
-Large changes should have a test plan, and should be tested by somebody other
-than the developer who wrote the code.
-See https://github.com/Bitunitypay/QA/ for how to create a test plan. ***TODO***
-
-Translations
-------------
-
-Changes to translations as well as new translations can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/Bitunity/).
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
 
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/Bitunity-translators). ***TODO***
+ ***TODO***
 
 Development tips and tricks
 ---------------------------
